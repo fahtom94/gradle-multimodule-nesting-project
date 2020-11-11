@@ -1,3 +1,0 @@
-bootJar {
-    mainClassName = 'com.example.application.Application'
-}
