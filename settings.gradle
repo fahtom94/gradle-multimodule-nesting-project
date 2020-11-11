@@ -1,0 +1,12 @@
+rootProject.name = 'gradle-multimodule-nesting-project'
+
+include 'service-domain'
+project(':service-domain').projectDir = file('service-core/service-domain')
+include 'service-api'
+project(':service-api').projectDir = file('service-core/service-api')
+
+
+
+include 'platform-api'
+include 'application'
+
